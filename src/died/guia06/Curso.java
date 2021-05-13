@@ -51,7 +51,7 @@ public class Curso {
 			log.registrar(this, "inscribir ",a.toString());
 		}
 		catch(IOException e) {
-			System.out.println("Problema de entrada/salida al inscribir al alumno.")
+			System.out.println("Problema de entrada/salida al inscribir al alumno.");
 		}
 		return false;
 	}
@@ -65,7 +65,7 @@ public class Curso {
 			log.registrar(this, "imprimir listado",this.inscriptos.size()+ " registros ");
 		}
 		catch(IOException e) {
-			System.out.println("Problema de entrada/salida al imprimir registro de inscriptos);")
+			System.out.println("Problema de entrada/salida al imprimir registro de inscriptos");
 		}
 	}
 
